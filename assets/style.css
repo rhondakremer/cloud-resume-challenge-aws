@@ -1,0 +1,13 @@
+body {
+    background: purple;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(186, 226, 30);
+}
+
+p {
+    color: pink;
+    font-style: italic;
+};
