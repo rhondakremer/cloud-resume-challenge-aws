@@ -25,7 +25,7 @@ section.contact {
 
 h1 {
     color: rgb(186, 226, 30);
-    font-size: 56px;
+    font-size: 60px;
 }
 
 h2 {
@@ -35,5 +35,18 @@ h2 {
 p {
     color: pink;
     font-style: italic;
-};
+}
 
+.briem-hand-regular {
+    font-family: "Briem Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.rubik-regular {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
