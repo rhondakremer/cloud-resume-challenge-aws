@@ -1,39 +1,25 @@
 body {
-    background: rgb(86, 143, 119);
+    background: rgb(86, 143, 119); 
 }
 
 .container {
-    display: grid;
+    border: 1px solid black;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    background-color: #FFFFEE;
 
-}
-
-header {
-    display: grid;
-    align-items: center;
-    /* text-align: center; */
-}
-
-section.name {
-    grid-column: 1;
-    grid-row: 1;
-}
-
-section.contact {
-    grid-column: 2;
-    grid-row: 1;
+    @media (max-width: 1000px) {
+        width: 90%;
+    }
 }
 
 h1 {
-    color: rgb(186, 226, 30);
     font-size: 60px;
-}
-
-h2 {
-    text-align: center;
+    margin: 10px 0;
 }
 
 p {
-    color: pink;
     font-style: italic;
 }
 
@@ -42,7 +28,7 @@ p {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
 .rubik-regular {
     font-family: "Rubik", sans-serif;
